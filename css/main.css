@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #777;
+  color: #52b6ec;;
   font-weight: 300;
 }
 a {
@@ -361,7 +361,7 @@ a:focus {
 .center {
   text-align: center;
 }
-#team-scroller .designation {
+.team .designation {
   margin-top: 10px;
   display: block;
 }
