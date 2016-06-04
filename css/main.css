@@ -174,7 +174,7 @@ a:focus {
   margin-bottom: 30px;
   font-size: 48px;
 }
-#portfolio .box {
+#impressions .box {
   background: #f3f3f3;
 }
 .portfolio-items,
@@ -352,10 +352,10 @@ a:focus {
   border-bottom-color: #52b6ec;
   margin: 0;
 }
-#services .box {
+#features .box {
   padding-bottom: 0;
 }
-#services .row > div {
+#features .row > div {
   margin-bottom: 50px;
 }
 .center {
