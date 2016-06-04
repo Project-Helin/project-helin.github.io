@@ -224,6 +224,7 @@ a:focus {
   width: 100%;
 }
 .portfolio-item .portfolio-image {
+  height: 157px;
   position: relative;
 }
 .portfolio-item h5 {
