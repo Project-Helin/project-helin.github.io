@@ -472,9 +472,8 @@ a:focus {
   border-radius: 0 0 0 5px;
 }
 .navbar-default .navbar-brand {
-  margin-right: 50px;
-  margin-left: 20px;
-  width: 200px;
+  margin-left: 30px;
+  width: 150px;
   height: 78px;
   background: url(../images/logo.png) no-repeat 0 50%;
 }
