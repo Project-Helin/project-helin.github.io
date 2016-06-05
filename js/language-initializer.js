@@ -2,8 +2,7 @@ function updateLanguage(reload) {
   var userLang = window.language || navigator.language || navigator.userLanguage;
   var langCode = userLang.substr(0, 2);
   var defaultLanguage = "en";
-
-
+  
   var supportedLanguages = ["en", "de"];
 
   var i18n = $.i18n();
