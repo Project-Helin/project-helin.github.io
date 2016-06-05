@@ -2,13 +2,16 @@
   "features_title": "Funktionalität",
   "getting_started_title": "Anleitung",
   "impressions_title": "Impressionen",
+  "vision_title": "Vision",
+  "team_title": "Team",
+  "partners_title": "Partner",
   "drone_delivery_everyone": "Schnelle Lieferung mit Drohnen",
   "first_carousel_1": "Nutze deine Drohnen um Lieferungen auszuführen",
   "first_carousel_2": "und verwalte sie mit Project Helin",
   "helin_free": "Nutze Project Helin kostenlos",
   "second_carousel": "Verwende unsere Plattform oder installiere es auf deinem eigenen Server",
-  "vision1": "We believe that fast-deliveries as well as services like drone-selfies or air-video-footage will soon be available as a service at a lot of places.",
-  "vision2": "So we developed a platform that enables everyone to use their drones to provide a delivery service. With predefined flight-zones it is possible to avoid collisions with static objects like trees and houses",
+  "vision1": "Wir glauben, dass schnelle Lieferungen und Dienstleistungen von Drohnen (Drone-Selfies oder Videoaufnahmen in Fun-Parks) bald zu unserem Alltag gehören werden.",
+  "vision2": "Aus diesem Grund haben wir eine Plattform entworfen und entwickelt, die es jedem ermöglicht, Lieferungen mit Drohnen anzubieten. Mit vordefinierten Flugzonen ist es möglich Kollisionen mit statischen Objekten wie Häusern oder Bäumen zu vermeiden",
   "collision_avoidance": "Objekten ausweichen",
   "collision_avoidance_text": "Du kannst Zonen definieren in denen die Drohnen navigieren können. Sie bewegen sich nur innerhalb dieser Grenzen und verhindern damit Kollisionen mit statischen Objekten.",
   "route_calculation": "Routen berechnen",
@@ -31,7 +34,4 @@
   "first_prototype": "Erster Prototyp",
   "project_editor": "Projekt Editor mit Flugzonen",
   "telemetry": "Telemetrie-Daten werden auf der Karte angezeigt"
-
-
-
 }

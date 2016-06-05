@@ -124,24 +124,24 @@ a:focus {
 #vision .container{
   margin-top: -40px;
 }
-#contact .box {
+#partners .box {
   background-color: #222;
   color: #999;
 }
-#contact .box h1,
-#contact .box h2,
-#contact .box h3 {
+#partners .box h1,
+#partners .box h2,
+#partners .box h3 {
   color: #fff;
 }
-#contact .box a {
+#partners .box a {
   color: #999;
 }
-#contact .box a:hover {
+#partners .box a:hover {
   color: #52b6ec;
 }
-#contact .box input[type="text"],
-#contact .box input[type="email"],
-#contact .box textarea {
+#partners .box input[type="text"],
+#partners .box input[type="email"],
+#partners .box textarea {
   background-color: #111;
   border: 0;
   -webkit-transition: 300ms;
@@ -149,9 +149,9 @@ a:focus {
   -o-transition: 300ms;
   transition: 300ms;
 }
-#contact .box input[type="text"]:focus,
-#contact .box input[type="email"]:focus,
-#contact .box textarea:focus {
+#partners .box input[type="text"]:focus,
+#partners .box input[type="email"]:focus,
+#partners .box textarea:focus {
   background-color: #000;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -477,7 +477,7 @@ a:focus {
   -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
   -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
   box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
-  overflow: hidden;
+  position: relative;
 }
 .navbar-default .first a {
   border-radius: 0 0 0 5px;
