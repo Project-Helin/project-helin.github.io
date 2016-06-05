@@ -1,4 +1,12 @@
 {
+  "features_title": "Funktionalität",
+  "getting_started_title": "Anleitung",
+  "impressions_title": "Impressionen",
+  "drone_delivery_everyone": "Schnelle Lieferung mit Drohnen",
+  "first_carousel_1": "Nutze deine Drohnen um Lieferungen auszuführen",
+  "first_carousel_2": "und verwalte sie mit Project Helin",
+  "helin_free": "Nutze Project Helin kostenlos",
+  "second_carousel": "Verwende unsere Plattform oder installiere es auf deinem eigenen Server",
   "vision1": "We believe that fast-deliveries as well as services like drone-selfies or air-video-footage will soon be available as a service at a lot of places.",
   "vision2": "So we developed a platform that enables everyone to use their drones to provide a delivery service. With predefined flight-zones it is possible to avoid collisions with static objects like trees and houses",
   "collision_avoidance": "Objekten ausweichen",
@@ -12,7 +20,17 @@
   "real_time": "Echtzeit Telemetrie",
   "real_time_text": "All deine Drohnen werden über das Internet gesteuert und kontrolliert. Auf unserer Plattform findest du jederzeit die Bewegungen und die Position ",
   "onboard_app": "Onboard App",
-  "onboard_app_text": "Benutze einfach unsere Onboard App um deine Drohnen mit unserer Plattform zu verbinden. Es stellt auch eine Benutzeroberfläche zur Verfügung um den Status der Drone anzuzeigen."
+  "onboard_app_text": "Benutze einfach unsere Onboard App um deine Drohnen mit unserer Plattform zu verbinden. Es stellt auch eine Benutzeroberfläche zur Verfügung um den Status der Drone anzuzeigen.",
+  "create_organisation": "Organisation erstellen",
+  "create_organisation_text": "Erstelle zuerst auf my.helin.ch eine Konto und erstelle dann deine Organisation. Jetzt kannst Du Drohnen und Produkte hinzufügen und diese für verschiedene Veranstaltungen verwenden (Projekte).",
+  "create_project": "Projekt erstellen",
+  "create_project_text": "Du kannst nun ein Projekt erstellen, welches definiert wo und was du deinen Kunden anbieten willst. Auf einer Karte kannst du einzeichnen wo deine Drohnen starten und welches Areal sie beliefern können. Du kannst alle Projekte testen indem du die Position deiner Drohne und des Kunden simulierst.",
+  "prepare_drone": "Drohne vorbereiten",
+  "prepare_drone_text": "Um deine Drohne mit unserer Plattform zu verbinden kannst Du ein Android Smartphone auf die Drohne montieren oder diese über ein Telemetrie-Set mit dem Smartphone verbinden. Du kannst die App unter Downloads herunterladen und mit Hilfe des Tokens den du im Drone-Overview unter my.helin.ch findest, die Drohne registrieren. Wenn du etwas abwerfen möchtest, kannst du dir die Abwurfvorrichtung mit einem 3D-Drucker ausdrucken.",
+  "impressions_intro": "Hier ein paar impressionen von Project Helin",
+  "first_prototype": "Erster Prototyp",
+  "project_editor": "Projekt Editor mit Flugzonen",
+  "telemetry": "Telemetrie-Daten werden auf der Karte angezeigt"
 
 
 
