@@ -1,0 +1,19 @@
+{
+  "vision1": "We believe that fast-deliveries as well as services like drone-selfies or air-video-footage will soon be available as a service at a lot of places.",
+  "vision2": "So we developed a platform that enables everyone to use their drones to provide a delivery service. With predefined flight-zones it is possible to avoid collisions with static objects like trees and houses",
+  "collision_avoidance": "Objekten ausweichen",
+  "collision_avoidance_text": "Du kannst Zonen definieren in denen die Drohnen navigieren können. Sie bewegen sich nur innerhalb dieser Grenzen und verhindern damit Kollisionen mit statischen Objekten.",
+  "route_calculation": "Routen berechnen",
+  "route_calculation_text": "When das System eine Bestellung von einem Kunden erhält berechnet es automatisch eine Route, die über die vordefinierten Zonen führt",
+  "compatibility": "Kompatibilität",
+  "compatibility_text": "Helin funktioniert mit jeder Drohne die das MAVLink Protokoll unterstützt. (Getestet mit Pixhawk und Ardupilot v.3.3)",
+  "customer_app": "Kunden App",
+  "customer_app_text": "Helin stellt eine App (iOS und Android) zur Verfügung. Sie zeigt dem Kunden automatisch deine Produkte sobal er sich in deinem Einzugsgebiet befindet.",
+  "real_time": "Echtzeit Telemetrie",
+  "real_time_text": "All deine Drohnen werden über das Internet gesteuert und kontrolliert. Auf unserer Plattform findest du jederzeit die Bewegungen und die Position ",
+  "onboard_app": "Onboard App",
+  "onboard_app_text": "Benutze einfach unsere Onboard App um deine Drohnen mit unserer Plattform zu verbinden. Es stellt auch eine Benutzeroberfläche zur Verfügung um den Status der Drone anzuzeigen."
+
+
+
+}

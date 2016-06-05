@@ -59,7 +59,7 @@
             <div class="container">
                 <div class="carousel-content">
                     <h1>Drone Delivery for Everyone</h1>
-                    <p class="lead">Use your drones to deliver your products<br>and anage them with Project Helin</p>
+                    <p class="lead">Use your drones to deliver your products<br>and manage them with Project Helin</p>
                 </div>
             </div>
         </div><!--/.item-->
@@ -84,10 +84,10 @@
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                    <p class="lead"> We believe that fast-deliveries as well as services
+                    <p class="lead" data-i18n="vision1"> We believe that fast-deliveries as well as services
                         like drone-selfies or air-video-footage will soon be available as a service at a lot of places.
                     </p>
-                    <p class="lead">So we developed a platform that enables everyone to use their drones
+                    <p class="lead" data-i18n="vision2">So we developed a platform that enables everyone to use their drones
                         to provide a delivery service. With predefined flight-zones it is possible to avoid collisions with static objects like trees and houses.</p>
                 </div>
 
@@ -107,45 +107,46 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="center">
                         <i class="fa fa-flash icon-md icon-color1"></i>
-                        <h4>Collision Avoidance</h4>
-                        <p>You can draw different types of zones in which your drones can navigate. They move only inside these borders and avoid collisions with static
+                        <h4 data-i18n="collision_avoidance">Collision Avoidance</h4>
+                        <p data-i18n="collision_avoidance_text">You can draw different types of zones in which your drones can navigate. They move only inside these borders and
+                            avoid collisions with static
                             objects.</p>
                     </div>
                 </div><!--/.col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="center">
                         <i class="fa fa-map-signs icon-md icon-color2"></i>
-                        <h4>Route Calculation</h4>
-                        <p>When the system receives an order from a customer it automatically calculates a route through your predefined flight zones.</p>
+                        <h4 data-i18n="route_calculation">Route Calculation</h4>
+                        <p data-i18n="route_calculation_text">When the system receives an order from a customer it automatically calculates a route through your predefined flight zones.</p>
                     </div>
                 </div><!--/.col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="center">
                         <i class="fa fa-usb icon-md icon-color3"></i>
-                        <h4>Compatibility</h4>
-                        <p>Our system works with every drone that supports MAVLink Protocol. (Tested with Pixhawk and Ardupilot v3.3)</p>
+                        <h4 data-i18n="compatibility">Compatibility</h4>
+                        <p data-i18n="compatibility_text">Our system works with every drone that supports MAVLink Protocol. (Tested with Pixhawk and Ardupilot v3.3)</p>
                     </div>
                 </div><!--/.col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="center">
                         <i class="fa fa-users icon-md icon-color4"></i>
-                        <h4>Customer App</h4>
-                        <p>We provide an App (iOS and Android), which every customer can download. It automatically shows your products if the customer is inside your catchment
+                        <h4 data-i18n="customer_app">Customer App</h4>
+                        <p data-i18n="customer_app_text">We provide an App (iOS and Android), which every customer can download. It automatically shows your products if the customer is inside your catchment
                             area.</p>
                     </div>
                 </div><!--/.col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="center">
                         <i class="fa fa-tachometer icon-md icon-color5"></i>
-                        <h4>Real-Time</h4>
-                        <p>All your drones are controlled over the Internet. Just use our platform to track the movement and actions of your drones in real-time.</p>
+                        <h4 data-i18n="real_time">Real-Time</h4>
+                        <p data-i18n="real_time_text">All your drones are controlled over the Internet. Just use our platform to track the movement and actions of your drones in real-time.</p>
                     </div>
                 </div><!--/.col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="center">
                         <i class="fa fa-cloud-upload icon-md icon-color6"></i>
-                        <h4>Onboard App</h4>
-                        <p>Just use our Onboard-App to connect your drones with our platform. It also provides a user-interface which helps you to keep track of the state of your
+                        <h4 data-i18n="onboard_app">Onboard App</h4>
+                        <p data-i18n="onboard_app_text">Just use our Onboard-App to connect your drones with our platform. It also provides a user-interface which helps you to keep track of the state of your
                             drone.</p>
                     </div>
                 </div><!--/.col-md-4-->
@@ -249,7 +250,8 @@
                         <div class="portfolio-image">
                             <img src="images/portfolio/full/flown-route.png" alt="">
                             <div class="overlay">
-                                <a class="preview btn btn-danger" title="Telemetry data of drone shown on map" href="images/portfolio/full/flown-route.png"><i class="fa fa-eye"></i></a>
+                                <a class="preview btn btn-danger" title="Telemetry data of drone shown on map" href="images/portfolio/full/flown-route.png"><i
+                                        class="fa fa-eye"></i></a>
                             </div>
                         </div>
                         <h5>Telemetry data of drone shown on map</h5>
@@ -323,6 +325,13 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.i18n.js"></script>
+<script src="js/jquery.i18n.messagestore.js"></script>
+<script src="js/jquery.i18n.fallbacks.js"></script>
+<script src="js/jquery.i18n.parser.js"></script>
+<script src="js/jquery.i18n.emitter.js"></script>
+<script src="js/jquery.i18n.language.js"></script>
+<script src="js/language-initializer.js"></script>
 <script src="js/jquery.isotope.min.js"></script>
 <script src="js/jquery.prettyPhoto.js"></script>
 <script src="js/main.js"></script>

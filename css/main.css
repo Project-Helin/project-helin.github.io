@@ -367,6 +367,7 @@ a:focus {
 }
 #features .row > div {
   margin-bottom: 50px;
+  height: 250px;
 }
 .center {
   text-align: center;
