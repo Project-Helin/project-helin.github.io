@@ -490,6 +490,7 @@ a:focus {
 }
 .navbar-default .navbar-nav > li {
   margin-left: 1px;
+  cursor: pointer;
 }
 .navbar-default .navbar-nav > li > a {
   padding: 30px 25px;
