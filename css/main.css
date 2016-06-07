@@ -183,7 +183,7 @@ a:focus {
   margin-bottom: 30px;
   font-size: 48px;
 }
-#impressions .box {
+#impressions .box, #features .box {
   background: #f3f3f3;
 }
 .portfolio-items,
