@@ -18,20 +18,18 @@ jQuery(function($) {
 	});
 
 	//smooth scroll
-	$('.navbar-nav > li').click(function(event) {
+	$('.navbar-nav > li:not(.external-link)').click(function(event) {
+		event.preventDefault();
 		var target = $(this).find('>a').prop('hash');
-		if (target.offset()) {
-			event.preventDefault();
-			$('html, body').animate({
-				scrollTop: $(target).offset().top
-			}, 500);
-		}
+		$('html, body').animate({
+			scrollTop: $(target).offset().top
+		}, 500);
 	});
 
 	//scrollspy
 	$('[data-spy="scroll"]').each(function () {
-		var $spy = $(this).scrollspy('refresh')
-	})
+		$(this).scrollspy('refresh')
+	});
 
 	//PrettyPhoto
 	$("a.preview").prettyPhoto({
