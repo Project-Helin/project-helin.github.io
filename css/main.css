@@ -365,9 +365,10 @@ a:focus {
 #features .box {
   padding-bottom: 0;
 }
+
 #features .row > div {
   margin-bottom: 50px;
-  height: 250px;
+  height: 270px;
 }
 
 #features .panel {
@@ -379,6 +380,12 @@ a:focus {
   padding-bottom: 10px;
   border-bottom: 1px dashed #eee;
 }
+
+#getting-started .panel {
+  padding: 10px;
+  height: 100%;
+}
+
 .center {
   text-align: center;
 }
