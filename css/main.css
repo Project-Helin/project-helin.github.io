@@ -369,6 +369,16 @@ a:focus {
   margin-bottom: 50px;
   height: 250px;
 }
+
+#features .panel {
+  padding: 20px;
+  height: 100%;
+}
+
+#features h4 {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #eee;
+}
 .center {
   text-align: center;
 }
