@@ -386,6 +386,10 @@ a:focus {
   height: 100%;
 }
 
+#getting-started .btn-warning {
+  margin-right: 20px;
+}
+
 .center {
   text-align: center;
 }
@@ -660,3 +664,4 @@ textarea#message {
     -o-transform: scale(1);
   }
 }
+

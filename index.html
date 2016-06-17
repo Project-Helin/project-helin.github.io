@@ -54,8 +54,9 @@
 </header><!--/#header-->
 
 <a href="https://github.com/orgs/project-helin" class="hidden-md hidden-sm hidden-xs"><img style="position: fixed; z-index:100000; top: 0; right: 0; border: 0;"
-                                                     src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67"
-                                                     alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+                                                                                           src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67"
+                                                                                           alt="Fork me on GitHub"
+                                                                                           data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
 <section id="main-slider" class="carousel">
     <div class="carousel-inner">
@@ -115,7 +116,8 @@
                     <div class="center panel panel-default">
                         <i class="fa fa-flash icon-md icon-color1"></i>
                         <h4 data-i18n="collision_avoidance">Collision Avoidance</h4>
-                        <p data-i18n="collision_avoidance_text">By drawing different zones, you define your drones flying behaviour. They move only inside these borders and therefore
+                        <p data-i18n="collision_avoidance_text">By drawing different zones, you define your drones flying behaviour. They move only inside these borders and
+                            therefore
                             avoid collisions with static objects or trigger function to provide a desired service.</p>
                     </div>
                 </div><!--/.col-md-4-->
@@ -123,7 +125,8 @@
                     <div class="center panel panel-default">
                         <i class="fa fa-map-signs icon-md icon-color2"></i>
                         <h4 data-i18n="route_calculation">Route Calculation</h4>
-                        <p data-i18n="route_calculation_text">As soon as the system receives an assignment from a customer it automatically calculates a route through your predefined flight
+                        <p data-i18n="route_calculation_text">As soon as the system receives an assignment from a customer it automatically calculates a route through your
+                            predefined flight
                             zones.</p>
                     </div>
                 </div><!--/.col-md-4-->
@@ -155,7 +158,8 @@
                     <div class="center panel panel-default">
                         <i class="fa fa-cloud-upload icon-md icon-color6"></i>
                         <h4 data-i18n="cloud_based">Cloud based</h4>
-                        <p data-i18n="cloud_based_text">All your drones are connected to the cloud, using the Onboard-App we provide. The cloud system allows you control all your drones at once.</p>
+                        <p data-i18n="cloud_based_text">All your drones are connected to the cloud, using the Onboard-App we provide. The cloud system allows you control all your
+                            drones at once.</p>
                     </div>
                 </div><!--/.col-md-4-->
             </div>
@@ -206,8 +210,19 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 text-center" >
+                    <div class="col-xs-12 text-center">
                         <a class="btn btn-success btn-lg" style="margin-top:50px;" href="https://my.helin.ch/register" data-i18n="start_now">Create your Account now</a>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-xs-12 text-center">
+                        <h3>Downloads</h3>
+
+                        <a class="btn btn-warning btn-lg" href="https://www.thingiverse.com/thing:1609195/#files" data-i18n="download_3d">3D Models</a>
+                        <a class="btn btn-warning btn-lg" href="downloads/drone-onboard-app.apk">Onboard-App APK</a>
+                        <a class="btn btn-warning btn-lg" href="downloads/customer-app.apk">Customer-App APK</a>
+
                     </div>
                 </div>
             </div>
@@ -263,16 +278,16 @@
                     </div>
                 </li><!--/.portfolio-item-->
                 <li class="portfolio-item software">
-                <div class="item-inner">
-                    <div class="portfolio-image software">
-                        <img src="images/portfolio/full/map-ui.jpg" alt="">
-                        <div class="overlay">
-                            <a class="preview btn btn-danger" href="images/portfolio/full/map-ui.jpg"><i
-                                    class="fa fa-eye"></i></a>
+                    <div class="item-inner">
+                        <div class="portfolio-image software">
+                            <img src="images/portfolio/full/map-ui.jpg" alt="">
+                            <div class="overlay">
+                                <a class="preview btn btn-danger" href="images/portfolio/full/map-ui.jpg"><i
+                                        class="fa fa-eye"></i></a>
+                            </div>
                         </div>
+                        <h5 data-i18n="telemetry">Telemetry data indicates drone position on map</h5>
                     </div>
-                    <h5 data-i18n="telemetry">Telemetry data indicates drone position on map</h5>
-                </div>
                 </li><!--/.portfolio-item-->
                 <li class="portfolio-item drone">
                     <div class="item-inner">
@@ -450,10 +465,17 @@
 <script src="js/language-initializer.js"></script>
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-79474933-1', 'auto');
     ga('send', 'pageview');
