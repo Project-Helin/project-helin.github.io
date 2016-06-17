@@ -34,5 +34,13 @@
   "impressions_intro": "Hier ein paar Impressionen von Project Helin",
   "first_prototype": "Erster Prototyp",
   "project_editor": "Projekt Editor mit Flugzonen",
-  "telemetry": "Telemetrie-Daten werden auf der Karte angezeigt"
+  "telemetry": "Telemetrie-Daten werden auf der Karte angezeigt",
+  "latest_drone_version": "Aktuellster Drohnen Prototyp mit Onboard-App",
+  "smartphone_mount": "3D-Gedruckte Smartphone Halterung",
+  "drop_mechanism": "3D-Gedruckter Abwurf Mechanismus ",
+  "medikit_drop": "Abwurf eines 1. Hilfe Pakets",
+  "drink_drop": "Abwurf eines Getränks",
+  "drones": "Drohnen",
+  "delivery": "Lieferungen",
+  "software": "Software"
 }
