@@ -43,5 +43,7 @@
   "drones": "Drohnen",
   "delivery": "Lieferungen",
   "software": "Software",
-  "download_models": "3D-Modelle"
+  "download_models": "3D-Modelle",
+  "contact-title": "Kontakt",
+  "contact-text": "Bei Fragen und sonstigen Anliegen kontaktieren Sie uns bitte unter folgender Adresse: <a href=\"mailto:contact@helin.ch\" target=\"_blank\">contact@helin.ch</a>"
 }
