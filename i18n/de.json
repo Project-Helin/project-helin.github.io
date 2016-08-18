@@ -45,5 +45,6 @@
   "software": "Software",
   "download_models": "3D-Modelle",
   "contact_title": "Kontakt",
-  "contact_text": "Bei Fragen und sonstigen Anliegen kontaktieren Sie uns bitte unter folgender Adresse: <a href=\"mailto:contact@helin.ch\" target=\"_blank\">contact@helin.ch</a>"
+  "contact_text": "Bei Fragen und sonstigen Anliegen kontaktieren Sie uns bitte unter folgender Adresse:",
+  "disclaimer": "Hinweis: Diese Plattform und alle Bestandteile sind ein Proof of Concept. Sämtliche Funktionen sind im experimental Stadium - Verwendung auf eigene Gefahr!"
 }
